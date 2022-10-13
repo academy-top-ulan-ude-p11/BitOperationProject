@@ -34,7 +34,10 @@ int main()
     weapon = weapon | WeaponMask::drob | WeaponMask::ognemet;
 
     
+    
     int num = 95;
+
+    // example: if(num % 2 == 1) <=> if(num & 1)
 
     cout << "-num = " << -num << "\n";
     cout << "-num = " << (~num + 1) << "\n";
